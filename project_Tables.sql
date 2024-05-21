@@ -8,6 +8,15 @@ CREATE TABLE customers (
                             state VARCHAR(25)
 );
 
+-- creating products table
+DROP TABLE IF EXISTS products;
+CREATE TABLE products (
+                        product_id VARCHAR(25) PRIMARY KEY,
+                        product_name VARCHAR(255),
+                        Price FLOAT,
+                        cogs FLOAT
+);
+
 
 -- creating sellers table
 DROP TABLE IF EXISTS sellers;
@@ -45,11 +54,3 @@ CREATE TABLE returns (
                         CONSTRAINT fk_orders FOREIGN KEY (order_id) REFERENCES orders(order_id)
 );
 
--- creating products table
-DROP TABLE IF EXISTS products;
-CREATE TABLE products (
-                        product_id VARCHAR(25) PRIMARY KEY,
-                        product_name VARCHAR(255),
-                        Price FLOAT,
-                        cogs FLOAT
-);
