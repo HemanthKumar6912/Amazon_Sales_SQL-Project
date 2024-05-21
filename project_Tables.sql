@@ -17,6 +17,7 @@ CREATE TABLE sellers (
 );
 
 -- creating orders table
+DROP TABLE IF EXISTS ORDERS;
 CREATE TABLE orders (
                         order_id VARCHAR(25) PRIMARY KEY,
                         order_date DATE,
