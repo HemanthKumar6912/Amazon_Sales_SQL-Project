@@ -55,6 +55,7 @@ percentage.
 
 
 ## Entity-Relationship Diagram (ERD)
+
 ![Banner Image](ERD_Amazon - Copy.png)
 
 An Entity-Relationship Diagram (ERD) has been created to visualize the relationships between
