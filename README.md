@@ -56,7 +56,7 @@ percentage.
 
 ## Entity-Relationship Diagram (ERD)
 
-![Banner Image](ERD_Amazon - Copy.png)
+![Banner Image](https://github.com/HemanthKumar6912/Amazon_Sales_SQL-Project/blob/main/ERD_Amazon%20-%20Copy.png)
 
 An Entity-Relationship Diagram (ERD) has been created to visualize the relationships between
 the tables in the dataset. This diagram provides a clear understanding of the data structure and
